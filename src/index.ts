@@ -165,7 +165,7 @@ async function main() {
       throw new Error('code-sign-certificate requires macOS.')
     }
 
-    // const passphrase = core.getInput('code-sign-certificate-passphrase')
+    const passphrase = core.getInput('code-sign-certificate-passphrase')
     // if (!passphrase) {
     //   throw new Error(
     //     'code-sign-certificate requires code-sign-certificate-passphrase.'
