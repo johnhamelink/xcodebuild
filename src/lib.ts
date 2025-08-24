@@ -469,7 +469,7 @@ export async function createKeychain(
       'import',
       certificatePath,
       '-P',
-      passphrase,
+      "''",
       '-A',
       '-t',
       'cert',
